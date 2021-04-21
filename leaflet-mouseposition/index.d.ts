@@ -9,6 +9,7 @@ declare module 'leaflet' {
         }
 
         interface MousePositionOptions {
+            enable?: boolean;
             position?: ControlPosition;
             separator?: string;
             emptyString?: string;

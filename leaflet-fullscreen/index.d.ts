@@ -8,6 +8,7 @@ declare module 'leaflet' {
         }
 
         interface FullscreenOptions {
+            enable?: boolean;
             content?: string;
             position?: ControlPosition;
             title?: {

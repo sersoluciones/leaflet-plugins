@@ -5,7 +5,7 @@
             background-color: white;
             background-image: url('^images/fullscreen.png');
             background-repeat: no-repeat;
-            background-size: 26px 52px;
+            background-size: 30px 60px;
             background-position: 0 0;
         }
     }
@@ -19,7 +19,7 @@
     }
 
     &.leaflet-touch.leaflet-fullscreen-on .leaflet-control-fullscreen a {
-        background-position: 2px -24px;
+        background-position: 0 -30px;
     }
       
     /* Do not combine these two rules; IE will break. */
